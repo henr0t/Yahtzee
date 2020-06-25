@@ -1,11 +1,12 @@
 import java.util.Random;
 
-class Dobbelsteen{
-int werpVast;
-int x;
-    int werpen(){
+class Dobbelsteen {
+    int werpVast;
+    int x;
+
+    int werpen() {
         Random rnd = new Random();
-        x = rnd.nextInt(6)+1;
+        x = rnd.nextInt(6) + 1;
         opslaan(x);
         return x;
 
@@ -15,7 +16,7 @@ int x;
         return x + "";
     }
 
-    void opslaan(int worp){
+    void opslaan(int worp) {
         werpVast = worp;
     }
 }
