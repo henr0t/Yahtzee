@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="568e2ece-bbbc-4846-90c4-882c037b59ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/Worp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/Worp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/YahtzeeSpel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/YahtzeeSpel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/YahtzeeSpel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YahtzeeSpel.java" afterDir="false" />
-    </list>
+    <list default="true" id="568e2ece-bbbc-4846-90c4-882c037b59ba" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,10 +73,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="756" y="405" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593086412851">
+    <state x="756" y="405" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593092492392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="756" y="405" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1593086412851" />
+    <state x="756" y="405" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1593092492392" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1592983664875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
