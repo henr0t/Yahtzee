@@ -11,18 +11,18 @@ class YahtzeeSpel {
     void spelen() {
         System.out.println("Yahtzee!\n[ENTER] om te gooien \n[q] om af te sluiten");
 
-        Speler speler = null;
-        Speler speler1 = new Speler();
-        Speler speler2 = new Speler();
+        Speler huidigespeler = null;
+        Speler speler1 = maakSpeler();
+        Speler speler2 = maakSpeler();
 
         Scanner input = new Scanner(System.in);
 
         do {
             if (spelerBeurt) {
-                speler = speler2;
+                huidigespeler = speler2;
                 System.out.println("\nSpeler 2 is aan de beurt:");
             } else if (!spelerBeurt) {
-                speler = speler1;
+                huidigespeler = speler1;
                 System.out.println("\nSpeler 1 is aan de beurt:");
             }
 
@@ -36,7 +36,6 @@ class YahtzeeSpel {
 
             for (Dobbelsteen steen : dobbelstenen) {
                 steen.werpen();
-
             }
 
             while (worpCounter < 4) {
@@ -47,14 +46,13 @@ class YahtzeeSpel {
                 vasthouden();
             }
             toonWorp().opslaanWorp();
-            Geschiedenis(speler);
+            Geschiedenis(huidigespeler);
 
             if (spelerBeurt) {
                 spelerBeurt = false;
             } else if (!spelerBeurt) {
                 spelerBeurt = true;
             }
-
         }
         while (!exit);
     }
@@ -83,12 +81,15 @@ class YahtzeeSpel {
         return new Worp();
     }
 
-    Speler Geschiedenis(Speler speler) {
+    Speler maakSpeler() {
+        return new Speler();
+    }
+
+    void Geschiedenis(Speler speler) {
         for (int i = 0; i < YahtzeeSpel.dobbelstenen.size(); i++) {
             speler.worpgeschiedenis.add(YahtzeeSpel.dobbelstenen.get(i).x);
         }
         System.out.println("GESCHIEDENIS: \n" + speler.worpgeschiedenis);
-        return new Speler();
     }
 
     YahtzeeSpel() {
