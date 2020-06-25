@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="568e2ece-bbbc-4846-90c4-882c037b59ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Worp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/Dobbelsteen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/Dobbelsteen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/Worp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/Worp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/YahtzeeSpel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/YahtzeeSpel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dobbelsteen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dobbelsteen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/YahtzeeSpel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YahtzeeSpel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,30 +86,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592983664875" />
-    <state width="1877" height="207" key="GridCell.Tab.0.bottom" timestamp="1593086204156">
+    <state width="1877" height="207" key="GridCell.Tab.0.bottom" timestamp="1593092224670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.9.1536.824@-1920.9.1536.824" timestamp="1592918308295" />
     <state width="1877" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1592930620952" />
-    <state width="1877" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593086204156" />
-    <state width="1877" height="207" key="GridCell.Tab.0.center" timestamp="1593086204155">
+    <state width="1877" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593092224670" />
+    <state width="1877" height="207" key="GridCell.Tab.0.center" timestamp="1593092224670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.9.1536.824@-1920.9.1536.824" timestamp="1592918308295" />
     <state width="1877" height="210" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1592930620952" />
-    <state width="1877" height="207" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593086204155" />
-    <state width="1877" height="207" key="GridCell.Tab.0.left" timestamp="1593086204155">
+    <state width="1877" height="207" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593092224670" />
+    <state width="1877" height="207" key="GridCell.Tab.0.left" timestamp="1593092224670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.9.1536.824@-1920.9.1536.824" timestamp="1592918308295" />
     <state width="1877" height="210" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1592930620951" />
-    <state width="1877" height="207" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593086204155" />
-    <state width="1877" height="207" key="GridCell.Tab.0.right" timestamp="1593086204156">
+    <state width="1877" height="207" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593092224670" />
+    <state width="1877" height="207" key="GridCell.Tab.0.right" timestamp="1593092224670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.9.1536.824@-1920.9.1536.824" timestamp="1592918308295" />
     <state width="1877" height="210" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1592930620952" />
-    <state width="1877" height="207" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593086204156" />
+    <state width="1877" height="207" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593092224670" />
     <state x="676" y="233" width="567" height="570" key="RefactorJ.ExtractClass" timestamp="1593011012044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -135,6 +132,6 @@
     <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593005993027" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Yahtzee$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1593009461941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Yahtzee$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1593091503886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
