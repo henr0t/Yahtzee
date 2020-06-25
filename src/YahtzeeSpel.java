@@ -5,39 +5,55 @@ import java.util.Scanner;
 class YahtzeeSpel {
     static ArrayList<Dobbelsteen> dobbelstenen = new ArrayList<Dobbelsteen>();
     boolean exit;
+    boolean spelerbeurt;
     int blokkeerArray[] = {0, 0, 0, 0, 0};
-
 
     void spelen() {
         System.out.println("Yahtzee!\n[ENTER] om te gooien \n[q] om af te sluiten");
 
-        int worpCounter = 0;
+        Speler speler = null;
+        Speler speler1 = new Speler();
+        Speler speler2 = new Speler();
+
         Scanner input = new Scanner(System.in);
 
-
         do {
-
-            String userInput = input.nextLine();
-
-            for (Dobbelsteen steen : dobbelstenen) {
-                steen.werpen();
-
+            if (spelerbeurt) {
+                speler = speler2;
+                System.out.println("\nSpeler 2 is aan de beurt:");
+            } else if (!spelerbeurt) {
+                speler = speler1;
+                System.out.println("\nSpeler 1 is aan de beurt:");
             }
-            System.out.println("Worp geschiedenis: "+ Speler.worpgeschiedenis);
-            worpCounter++;
-            System.out.println("WORP" + worpCounter);
 
+            int worpCounter = 0;
+            String userInput = input.nextLine();
 
             if (userInput.equals("q")) {
                 exit = true;
                 break;
             }
 
-            System.out.println("[1, 2, 3, 4, 5] <--POSITIE");
-            toonWorp().opslaanWorp();
+            for (Dobbelsteen steen : dobbelstenen) {
+                steen.werpen();
 
-            vasthouden();
-            toonGeschiedenis();
+            }
+
+            while (worpCounter < 4) {
+                worpCounter++;
+                System.out.println("WORP" + worpCounter);
+
+                toonWorp().opslaanWorp();
+                vasthouden();
+            }
+            toonWorp().opslaanWorp();
+            Geschiedenis(speler);
+
+            if (spelerbeurt) {
+                spelerbeurt = false;
+            } else if (!spelerbeurt) {
+                spelerbeurt = true;
+            }
 
         }
         while (!exit);
@@ -48,10 +64,10 @@ class YahtzeeSpel {
         Scanner input = new Scanner(System.in);
         String userInput = input.nextLine();
         for (int i = 0; i < userInput.length(); i++) {
-            int indivInput = (Character.getNumericValue(userInput.charAt(i))) - 1;   //uitelkaar halen van het invoer
+            int indivInput = (Character.getNumericValue(userInput.charAt(i))) - 1;      //uitelkaar halen van het invoer
             for (int j = 0; j < blokkeerArray.length; j++) {
-                if (indivInput == j) {                                                //als input gelijk is aan 1-5
-                    blokkeerArray[j] = 1;                                           //maak 0 naar 1
+                if (indivInput == j) {                                                  //als input gelijk is aan 1-5
+                    blokkeerArray[j] = 1;                                               //maak 0 naar 1
                 }
             }
         }
@@ -61,17 +77,19 @@ class YahtzeeSpel {
             }
         }
         Arrays.fill(blokkeerArray, 0);
-        toonWorp().opslaanWorp();
     }
 
     Worp toonWorp() {
         return new Worp();
     }
 
-    Speler toonGeschiedenis(){
+    Speler Geschiedenis(Speler speler) {
+        for (int i = 0; i < YahtzeeSpel.dobbelstenen.size(); i++) {
+            speler.worpgeschiedenis.add(YahtzeeSpel.dobbelstenen.get(i).x);
+        }
+        System.out.println("GESCHIEDENIS: \n" + speler.worpgeschiedenis);
         return new Speler();
     }
-
 
     YahtzeeSpel() {
         for (int i = 0; i < 5; i++) {
@@ -79,4 +97,3 @@ class YahtzeeSpel {
         }
     }
 }
-
