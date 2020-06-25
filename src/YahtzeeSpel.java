@@ -5,7 +5,7 @@ import java.util.Scanner;
 class YahtzeeSpel {
     static ArrayList<Dobbelsteen> dobbelstenen = new ArrayList<Dobbelsteen>();
     boolean exit;
-    boolean spelerbeurt;
+    boolean spelerBeurt;
     int blokkeerArray[] = {0, 0, 0, 0, 0};
 
     void spelen() {
@@ -18,10 +18,10 @@ class YahtzeeSpel {
         Scanner input = new Scanner(System.in);
 
         do {
-            if (spelerbeurt) {
+            if (spelerBeurt) {
                 speler = speler2;
                 System.out.println("\nSpeler 2 is aan de beurt:");
-            } else if (!spelerbeurt) {
+            } else if (!spelerBeurt) {
                 speler = speler1;
                 System.out.println("\nSpeler 1 is aan de beurt:");
             }
@@ -49,10 +49,10 @@ class YahtzeeSpel {
             toonWorp().opslaanWorp();
             Geschiedenis(speler);
 
-            if (spelerbeurt) {
-                spelerbeurt = false;
-            } else if (!spelerbeurt) {
-                spelerbeurt = true;
+            if (spelerBeurt) {
+                spelerBeurt = false;
+            } else if (!spelerBeurt) {
+                spelerBeurt = true;
             }
 
         }

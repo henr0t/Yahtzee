@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="568e2ece-bbbc-4846-90c4-882c037b59ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/Speler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/Speler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/Worp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/Worp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/YahtzeeSpel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/YahtzeeSpel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Speler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Speler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Worp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Worp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/YahtzeeSpel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YahtzeeSpel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
